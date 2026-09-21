@@ -1,13 +1,22 @@
 {
-  "name": "campuslands-cli-node",
+  "name": "campuslands-cli-esm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Gestor en Node puro con EcmaScript",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Velasco-c/campuslands-cli-node.git"
+  },
+  "keywords": [
+    "campuslands",
+    "nodejs",
+    "esm"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC"
 }
